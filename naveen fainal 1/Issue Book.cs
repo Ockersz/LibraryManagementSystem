@@ -128,5 +128,14 @@ namespace naveen_fainal_1
                 MessageBox.Show("There is no Student Number which is entered. Please enter student number", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Dashboard ds = new Dashboard();
+            this.Hide();
+            ds.ShowDialog();
+            
+
+        }
     }
 }

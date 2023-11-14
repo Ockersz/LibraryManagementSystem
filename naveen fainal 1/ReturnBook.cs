@@ -128,5 +128,13 @@ namespace naveen_fainal_1
                 
             }
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Dashboard ds = new Dashboard();
+            this.Hide();
+            ds.ShowDialog();
+            
+        }
     }
 }

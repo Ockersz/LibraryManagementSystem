@@ -196,5 +196,14 @@ namespace naveen_fainal_1
             txtPrice.Clear();
             txtQuantity.Clear();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+
+            Dashboard ds = new Dashboard();
+            this.Hide();
+            ds.ShowDialog();
+            
+        }
     }
 }

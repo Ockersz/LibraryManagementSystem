@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.btnBack = new System.Windows.Forms.Button();
             this.txtSave = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -105,6 +106,7 @@
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.btnBack);
             this.panel5.Controls.Add(this.txtSave);
             this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.panel9);
@@ -123,6 +125,18 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(676, 218);
             this.panel5.TabIndex = 17;
+            // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnBack.Location = new System.Drawing.Point(159, 165);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(74, 33);
+            this.btnBack.TabIndex = 31;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // txtSave
             // 
@@ -301,5 +315,6 @@
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TextBox txtsId;
         private System.Windows.Forms.Button txtSave;
+        private System.Windows.Forms.Button btnBack;
     }
 }
