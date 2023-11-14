@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace naveen_fainal_1
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -43,7 +43,7 @@ namespace naveen_fainal_1
                 da.Fill(dt);
                 if (dt.Rows.Count != 0)
                 {
-                    Form2 das = new Form2();
+                    Dashboard das = new Dashboard();
                     this.Hide();
                     das.Show();
                 }

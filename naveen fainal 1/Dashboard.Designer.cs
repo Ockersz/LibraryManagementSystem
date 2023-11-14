@@ -1,7 +1,7 @@
 ﻿
 namespace naveen_fainal_1
 {
-    partial class Form2
+    partial class Dashboard
     {
         /// <summary>
         /// Required designer variable.
