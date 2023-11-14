@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace naveen_fainal_1
 {
-    public partial class Form2 : Form
+    public partial class Return_Book : Form
     {
-        public Form2()
+        public Return_Book()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
