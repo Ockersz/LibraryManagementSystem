@@ -13,3 +13,5 @@ C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\na
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Login.resources
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Dashboard.resources
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.ViewBook.resources
+C:\Users\Shahe\source\repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.AddStudent.resources
+C:\Users\Shahe\source\repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.ReturnBook.resources
