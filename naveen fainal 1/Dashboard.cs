@@ -37,5 +37,12 @@ namespace naveen_fainal_1
             issueBook.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ReturnBook returnBook = new ReturnBook();
+            returnBook.Show();
+            this.Hide();
+        }
     }
 }

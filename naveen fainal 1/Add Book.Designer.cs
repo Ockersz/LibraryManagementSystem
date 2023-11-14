@@ -48,25 +48,25 @@ namespace naveen_fainal_1
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(147, 90);
-            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(113, 20);
+            this.txtName.Size = new System.Drawing.Size(146, 20);
             this.txtName.TabIndex = 1;
             // 
             // txtPublication
             // 
             this.txtPublication.Location = new System.Drawing.Point(147, 194);
-            this.txtPublication.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPublication.Margin = new System.Windows.Forms.Padding(2);
             this.txtPublication.Name = "txtPublication";
-            this.txtPublication.Size = new System.Drawing.Size(113, 20);
+            this.txtPublication.Size = new System.Drawing.Size(146, 20);
             this.txtPublication.TabIndex = 5;
             // 
             // txtAuthorName
             // 
             this.txtAuthorName.Location = new System.Drawing.Point(147, 138);
-            this.txtAuthorName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAuthorName.Margin = new System.Windows.Forms.Padding(2);
             this.txtAuthorName.Name = "txtAuthorName";
-            this.txtAuthorName.Size = new System.Drawing.Size(113, 20);
+            this.txtAuthorName.Size = new System.Drawing.Size(146, 20);
             this.txtAuthorName.TabIndex = 7;
             // 
             // label5
@@ -110,7 +110,7 @@ namespace naveen_fainal_1
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(285, 141);
+            this.label7.Location = new System.Drawing.Point(359, 138);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(66, 15);
@@ -122,7 +122,7 @@ namespace naveen_fainal_1
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(285, 197);
+            this.label6.Location = new System.Drawing.Point(359, 194);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 15);
@@ -134,7 +134,7 @@ namespace naveen_fainal_1
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(285, 90);
+            this.label3.Location = new System.Drawing.Point(359, 87);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 15);
@@ -143,35 +143,36 @@ namespace naveen_fainal_1
             // 
             // txtQuantity
             // 
-            this.txtQuantity.Location = new System.Drawing.Point(432, 197);
-            this.txtQuantity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuantity.Location = new System.Drawing.Point(506, 194);
+            this.txtQuantity.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(131, 20);
+            this.txtQuantity.Size = new System.Drawing.Size(180, 20);
             this.txtQuantity.TabIndex = 21;
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(432, 138);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrice.Location = new System.Drawing.Point(506, 135);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(131, 20);
+            this.txtPrice.Size = new System.Drawing.Size(180, 20);
             this.txtPrice.TabIndex = 20;
             // 
             // dtpPurchaseDate
             // 
-            this.dtpPurchaseDate.Location = new System.Drawing.Point(432, 85);
-            this.dtpPurchaseDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpPurchaseDate.Location = new System.Drawing.Point(506, 82);
+            this.dtpPurchaseDate.Margin = new System.Windows.Forms.Padding(2);
             this.dtpPurchaseDate.Name = "dtpPurchaseDate";
-            this.dtpPurchaseDate.Size = new System.Drawing.Size(131, 20);
+            this.dtpPurchaseDate.Size = new System.Drawing.Size(180, 20);
             this.dtpPurchaseDate.TabIndex = 22;
             // 
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnSave.Location = new System.Drawing.Point(340, 276);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(222, 276);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(56, 31);
+            this.btnSave.Size = new System.Drawing.Size(93, 31);
             this.btnSave.TabIndex = 23;
             this.btnSave.Text = "Save Info";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -180,10 +181,11 @@ namespace naveen_fainal_1
             // btnRefresh
             // 
             this.btnRefresh.BackColor = System.Drawing.Color.Lime;
-            this.btnRefresh.Location = new System.Drawing.Point(441, 276);
-            this.btnRefresh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.Location = new System.Drawing.Point(361, 276);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(2);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(56, 31);
+            this.btnRefresh.Size = new System.Drawing.Size(64, 31);
             this.btnRefresh.TabIndex = 24;
             this.btnRefresh.Text = "Reset";
             this.btnRefresh.UseVisualStyleBackColor = false;
@@ -193,7 +195,7 @@ namespace naveen_fainal_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(710, 366);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.dtpPurchaseDate);
@@ -208,7 +210,7 @@ namespace naveen_fainal_1
             this.Controls.Add(this.txtAuthorName);
             this.Controls.Add(this.txtPublication);
             this.Controls.Add(this.txtName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Add_Book";
             this.Text = "Add_Book";
             this.Load += new System.EventHandler(this.Add_Book_Load);

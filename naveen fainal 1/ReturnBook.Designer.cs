@@ -35,6 +35,8 @@ namespace naveen_fainal_1
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblPenalty = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnReturn = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -44,8 +46,6 @@ namespace naveen_fainal_1
             this.txtBookName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -108,7 +108,7 @@ namespace naveen_fainal_1
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.lblPenalty);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.btnCancel);
             this.panel2.Controls.Add(this.btnReturn);
@@ -121,8 +121,35 @@ namespace naveen_fainal_1
             this.panel2.Location = new System.Drawing.Point(274, 178);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(470, 279);
+            this.panel2.Size = new System.Drawing.Size(655, 279);
             this.panel2.TabIndex = 7;
+            // 
+            // lblPenalty
+            // 
+            this.lblPenalty.AutoSize = true;
+            this.lblPenalty.BackColor = System.Drawing.Color.Transparent;
+            this.lblPenalty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPenalty.ForeColor = System.Drawing.Color.Red;
+            this.lblPenalty.Location = new System.Drawing.Point(412, 140);
+            this.lblPenalty.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPenalty.MinimumSize = new System.Drawing.Size(150, 20);
+            this.lblPenalty.Name = "lblPenalty";
+            this.lblPenalty.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblPenalty.Size = new System.Drawing.Size(150, 20);
+            this.lblPenalty.TabIndex = 24;
+            this.lblPenalty.Text = "0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(110, 142);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 17);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Penalty Price";
             // 
             // btnCancel
             // 
@@ -147,10 +174,11 @@ namespace naveen_fainal_1
             this.btnReturn.TabIndex = 20;
             this.btnReturn.Text = "Return";
             this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(186, 103);
+            this.dateTimePicker1.Location = new System.Drawing.Point(361, 102);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(197, 20);
@@ -162,7 +190,7 @@ namespace naveen_fainal_1
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Highlight;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 105);
+            this.label1.Location = new System.Drawing.Point(110, 104);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 17);
@@ -171,7 +199,7 @@ namespace naveen_fainal_1
             // 
             // txtIssueDate
             // 
-            this.txtIssueDate.Location = new System.Drawing.Point(186, 63);
+            this.txtIssueDate.Location = new System.Drawing.Point(361, 62);
             this.txtIssueDate.Margin = new System.Windows.Forms.Padding(2);
             this.txtIssueDate.Name = "txtIssueDate";
             this.txtIssueDate.Size = new System.Drawing.Size(197, 20);
@@ -182,7 +210,7 @@ namespace naveen_fainal_1
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.Highlight;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(20, 63);
+            this.label8.Location = new System.Drawing.Point(110, 62);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(111, 17);
@@ -191,7 +219,7 @@ namespace naveen_fainal_1
             // 
             // txtBookName
             // 
-            this.txtBookName.Location = new System.Drawing.Point(186, 25);
+            this.txtBookName.Location = new System.Drawing.Point(361, 24);
             this.txtBookName.Margin = new System.Windows.Forms.Padding(2);
             this.txtBookName.Name = "txtBookName";
             this.txtBookName.Size = new System.Drawing.Size(197, 20);
@@ -202,7 +230,7 @@ namespace naveen_fainal_1
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.Highlight;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(20, 25);
+            this.label5.Location = new System.Drawing.Point(110, 24);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(81, 17);
@@ -216,42 +244,15 @@ namespace naveen_fainal_1
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView1.Location = new System.Drawing.Point(274, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(466, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(655, 150);
             this.dataGridView1.TabIndex = 8;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 143);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 17);
-            this.label2.TabIndex = 23;
-            this.label2.Text = "Penalty Price";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(237, 141);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.MinimumSize = new System.Drawing.Size(150, 20);
-            this.label3.Name = "label3";
-            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label3.Size = new System.Drawing.Size(150, 20);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "0";
             // 
             // ReturnBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(752, 475);
+            this.ClientSize = new System.Drawing.Size(941, 475);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
@@ -284,7 +285,7 @@ namespace naveen_fainal_1
         private System.Windows.Forms.TextBox txtBookName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblPenalty;
         private System.Windows.Forms.Label label2;
     }
 }
