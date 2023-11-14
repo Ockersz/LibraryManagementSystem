@@ -4,12 +4,12 @@ C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\bin\Debug\na
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen fainal 1.csproj.AssemblyReference.cache
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen fainal 1.csproj.SuggestedBindingRedirects.cache
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Add_Book.resources
-C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Form1.resources
-C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Form2.resources
-C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Form3.resources
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Issue_Book.resources
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Properties.Resources.resources
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen fainal 1.csproj.GenerateResource.cache
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen fainal 1.csproj.CoreCompileInputs.cache
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen fainal 1.exe
 C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen fainal 1.pdb
+C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Login.resources
+C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.Dashboard.resources
+C:\Users\Shahe\Source\Repos\LibraryManagementSystem\naveen fainal 1\obj\Debug\naveen_fainal_1.ViewBook.resources

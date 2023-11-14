@@ -16,5 +16,26 @@ namespace naveen_fainal_1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Add_Book add_Book = new Add_Book();
+            add_Book.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ViewBook viewBook = new ViewBook();
+            viewBook.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Issue_Book issueBook = new Issue_Book();
+            issueBook.Show();
+            this.Hide();
+        }
     }
 }
