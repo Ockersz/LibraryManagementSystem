@@ -51,5 +51,12 @@ namespace naveen_fainal_1
             this.Hide();
             db.Show();
         }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            this.Hide();
+            lg.Show();
+        }
     }
 }

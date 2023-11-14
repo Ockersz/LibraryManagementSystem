@@ -32,6 +32,7 @@
             this.dgvIssue = new System.Windows.Forms.DataGridView();
             this.dgvReturn = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvIssue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvReturn)).BeginInit();
             this.SuspendLayout();
@@ -72,11 +73,24 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Return Books";
             // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnBack.Location = new System.Drawing.Point(34, 480);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(74, 33);
+            this.btnBack.TabIndex = 26;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // BookDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(903, 524);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dgvReturn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvIssue);
@@ -97,5 +111,6 @@
         private System.Windows.Forms.DataGridView dgvIssue;
         private System.Windows.Forms.DataGridView dgvReturn;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnBack;
     }
 }
