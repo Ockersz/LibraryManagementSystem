@@ -16,5 +16,10 @@ namespace naveen_fainal_1
         {
             InitializeComponent();
         }
+
+        private void Add_Book_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
